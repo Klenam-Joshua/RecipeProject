@@ -1,0 +1,14 @@
+.recipe-details{
+    background:white;
+    padding:2rem 0.5rem 2rem  0.5rem;
+    margin-top:4rem;
+      
+}
+
+.recipe-details p{
+    margin-top:1rem;
+}
+
+.recipe-details h2{
+    font-weight: 600;
+}

@@ -1,0 +1,29 @@
+
+.multi_color_container{
+    display: flex;
+    
+  justify-content: space-between;
+}
+
+.multi_color_container > div{
+   width:20px;
+   height: 20px;
+   border-radius: 50%;
+   cursor: pointer;
+   margin:0.3rem;
+
+}
+
+.multi_color_container .color_red{
+    background-color: red;
+}
+
+
+.multi_color_container .color_yellow{
+    background-color:yellow;
+}
+
+
+.multi_color_container .color_green{
+    background-color: green;
+}

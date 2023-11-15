@@ -1,0 +1,162 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "recipeTitle": "jollof",
+      "allRecipeIngredients": [
+        "ginger",
+        "pepper"
+      ],
+      "recipeMethod": "water everything",
+      "recipeTime": "89"
+    },
+    {
+      "id": 2,
+      "recipeTitle": "jollof",
+      "allRecipeIngredients": [
+        "ginger",
+        "pepper"
+      ],
+      "recipeMethod": "water everything",
+      "recipeTime": "89"
+    },
+    {
+      "id": 3,
+      "recipeTitle": "",
+      "allRecipeIngredients": [],
+      "recipeMethod": "",
+      "recipeTime": ""
+    },
+    {
+      "id": 4,
+      "recipeTitle": "",
+      "allRecipeIngredients": [],
+      "recipeMethod": "",
+      "recipeTime": ""
+    },
+    {
+      "id": 5,
+      "recipeTitle": "",
+      "allRecipeIngredients": [],
+      "recipeMethod": "",
+      "recipeTime": ""
+    },
+    {
+      "id": 6,
+      "recipeTitle": "jollof",
+      "allRecipeIngredients": [
+        "oaisldjfaof"
+      ],
+      "recipeMethod": "fire",
+      "recipeTime": "non"
+    },
+    {
+      "id": 7,
+      "recipeTitle": "",
+      "allRecipeIngredients": [],
+      "recipeMethod": "",
+      "recipeTime": ""
+    },
+    {
+      "id": 8,
+      "recipeTitle": "",
+      "allRecipeIngredients": [],
+      "recipeMethod": "",
+      "recipeTime": ""
+    },
+    {
+      "id": 9,
+      "recipeTitle": "water",
+      "allRecipeIngredients": [
+        "oaisldjfaof"
+      ],
+      "recipeMethod": "AOISDJFOIASD",
+      "recipeTime": "non"
+    },
+    {
+      "id": 10,
+      "recipeTitle": "nut shell",
+      "allRecipeIngredients": [
+        "drinking glass",
+        "drinking cup",
+        "fanta"
+      ],
+      "recipeMethod": "wash the stuffs",
+      "recipeTime": "45"
+    },
+    {
+      "id": 11,
+      "recipeTitle": "",
+      "allRecipeIngredients": [],
+      "recipeMethod": "",
+      "recipeTime": ""
+    },
+    {
+      "id": 12,
+      "recipeTitle": "water",
+      "allRecipeIngredients": [
+        "oaisldjfaof"
+      ],
+      "recipeMethod": "wash the stuffs",
+      "recipeTime": "70"
+    },
+    {
+      "id": 13,
+      "recipeTitle": "water",
+      "allRecipeIngredients": [
+        "oaisldjfaof",
+        "another",
+        "egg"
+      ],
+      "recipeMethod": "fire",
+      "recipeTime": "89"
+    },
+    {
+      "id": 14,
+      "recipeTitle": "water",
+      "allRecipeIngredients": [
+        "BANANA",
+        "GARDEN EGG",
+        "onion",
+        "garlic"
+      ],
+      "recipeMethod": "AOISDJFOIASD",
+      "recipeTime": "NULL"
+    },
+    {
+      "id": 15,
+      "recipeTitle": "",
+      "allRecipeIngredients": [],
+      "recipeMethod": "",
+      "recipeTime": ""
+    },
+    {
+      "id": 16,
+      "recipeTitle": "",
+      "allRecipeIngredients": [],
+      "recipeMethod": "",
+      "recipeTime": ""
+    },
+    {
+      "id": 17,
+      "recipeTitle": "",
+      "allRecipeIngredients": [],
+      "recipeMethod": "",
+      "recipeTime": ""
+    },
+    {
+      "id": 18,
+      "recipeTitle": "",
+      "allRecipeIngredients": [],
+      "recipeMethod": "",
+      "recipeTime": ""
+    },
+    {
+      "id": 19,
+      "recipeTitle": "water",
+      "allRecipeIngredients": [],
+      "recipeMethod": "AOISDJFOIASD",
+      "recipeTime": "70"
+    }
+  ]
+}

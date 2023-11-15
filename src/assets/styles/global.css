@@ -1,0 +1,214 @@
+@font-face {
+    font-family:roboto-regular ;
+    src: url(../Fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(../Fonts/Roboto/Roboto-Bold.ttf);
+}
+
+
+:root{
+    /* 
+    ============= colors=========
+    */
+    --bg-color:#dedede;;
+    --nav-color:#58249b;
+
+/* =========fonts ============= */
+    --font-family:sans-serif;
+    --ft-roboto-regular: roboto-regular;
+    --font-roboto-bold: roboto-bold;
+    
+}
+
+
+
+
+html,
+body,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  var(--ft-roboto-regular) ;
+    font-weight: 100;
+}
+
+html,
+
+body {
+    background: var(--bg-color);
+
+}
+
+html,
+body {
+    height: 100%;
+
+}
+
+
+#root {
+    height: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-dir-column {
+    flex-direction: column;
+}
+
+.flex_reverse {}
+
+.align-center {
+    align-items: center;
+}
+
+
+.fw-bold{
+    font-weight:bold;
+}
+/*============ widths   based on grid view==============*/
+.w-6 {
+    width: 50%;
+}
+
+.w-5 {
+    max-width: 33rem;
+}
+
+.w-4 {
+    width: 33.3333%;
+}
+
+.w-7 {
+    width: 58.33333%
+}
+
+.w-8 {
+    width: 66.666666%
+}
+
+
+.w-9 {
+    width: 75%
+}
+
+
+.w-10 {
+    width: 83.333%
+}
+
+.w-12 {
+    width: 100%;
+}
+
+
+
+/*========= colors =====*/
+
+.text-light {
+    color: var(--vLightGray);
+}
+
+.text-red {
+    color: red;
+}
+
+.text_line-through {
+    text-decoration: line-through;
+}
+
+/* text alignment */
+.text_align_justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* borders */
+.border-none {
+    border: 0;
+}
+
+
+/* paddings */
+
+.pl-0_5 {
+    padding-left: 0.5rem;
+}
+
+.py-0_5 {
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    ;
+}
+
+.py-1 {
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.py-0_7 {
+    padding-top: 0.7rem;
+
+    padding-bottom: 0.7rem;
+}
+
+
+
+@keyframes rotate_360 {
+    to {
+        transform: rotate(360deg);
+        background: blue;
+        opacity: 0.4;
+    }
+
+}
+
+@keyframes rotate_180 {
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+.border_solid_blue {
+    border: 1px solid var(--brightBlue);
+}

@@ -1,0 +1,47 @@
+.data{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+
+
+.recipe_container{
+    
+    width:22rem;
+    min-height:25vh;
+    box-shadow:0 0 4px rgb(164, 163, 163);
+    padding:1rem 1rem;
+    background:white;
+}
+
+.method{
+      margin-top:2rem;
+}
+.recipe_container:hover{
+         animation: shake 0.5s 1 linear ;
+}
+
+.cook-btn{
+    display:inline-block;
+    background:var(--bg-color);
+    text-decoration: none;
+    padding:0.4rem 0.5rem;
+    color:black;
+    margin:1rem 0  0 50% ;
+    transform: translateX(-50%);
+    
+
+
+}
+
+
+@keyframes  shake {
+        50%{
+             transform: rotate(10deg);
+        }
+
+}

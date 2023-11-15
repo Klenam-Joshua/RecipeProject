@@ -1,0 +1,55 @@
+#header{
+    background-color: var(--nav-color);
+    height:fit-content;
+    color:white;
+    position: sticky;
+    top:0;
+    z-index: 89;
+    
+}
+
+#wrapper{
+    width:80%;
+    margin:auto;
+    height: 100%;
+    padding:1rem 0;
+}
+
+
+.brandName__container a{
+    color:white;
+    text-decoration:none;
+     font-size:1.4rem
+
+}
+
+
+.form-container  input[type="text"]{
+    display: inline-block;
+    padding:0.3rem;
+    margin: 0.4rem;
+    
+}
+
+.form-container input[type="submit"]{
+    display:none
+}
+
+#new-recipe-btn{
+    color:white;
+    display:inline-block;
+    text-decoration:none;
+    margin: 0.3rem 0 0 1rem;
+    border:1px groove white;
+    padding:0.3rem 0.5rem;
+    border-radius:3px;
+}
+
+.lower-header{
+    display: flex;
+    justify-content: space-between;
+  height: fit-content;
+    background-color: var(--bg-color);
+    padding:0.3rem 2rem;
+}
+

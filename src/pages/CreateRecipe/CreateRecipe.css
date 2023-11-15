@@ -1,0 +1,65 @@
+.new_recipe_form_container{
+    width:40%;
+    margin: 3rem auto;
+}
+
+
+
+.field_wrapper{
+    margin-top:2rem;
+}
+.new_recipe_form_container  input {
+   width:100%;
+   outline:none;
+   border:none;
+   height:2rem;
+   border-radius:6px;
+   padding-left:1rem;
+}
+
+#recipe_ingredients_container  input{
+     width: 85%;
+}
+
+#ingredient_btn  {
+    padding:0.2rem 1rem;
+    background-color: var(--nav-color);
+    border:none;
+    color:white;
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+
+
+
+
+.new_recipe_form_container form label {
+    display: block;
+    font-size:0.9rem;   
+}
+
+#submit_btn{
+    display:inline-block;
+    padding:0.4rem 1.5rem;
+    background:var(--nav-color);
+    color:white;
+    border:none;
+    margin-left:50%;
+    transform:translateX(-50%);
+    margin-top:2rem;
+    border-radius:0.3rem;
+    transition:all 0.5s;
+    cursor:pointer;
+
+}
+
+#submit_btn:hover{
+    background:white;
+    border:1px solid var(--nav-color);
+    color:var(--nav-color);
+}
+
+.text-light{
+    color:white;
+}
