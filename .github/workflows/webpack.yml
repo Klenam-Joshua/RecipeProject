@@ -24,7 +24,7 @@ jobs:
                           - name: install_dependencies
                             run: npm ci
                           - name: start_app
-                          - run: npm start
+                           run: npm start
 
                           
 
