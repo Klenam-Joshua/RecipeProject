@@ -9,6 +9,8 @@ jobs:
    deployment_local_server:
                       runs-on: ubuntu-latest
                       steps: 
+                          - name: log
+                            run: echo "Downloading nodejs..."
                           - name: download-npm
                             uses: actions/setup-node@v4
                             
