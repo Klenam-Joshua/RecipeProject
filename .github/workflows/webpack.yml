@@ -13,8 +13,20 @@ jobs:
                             run: echo "Downloading nodejs..."
                           - name: download-npm
                             uses: actions/setup-node@v4
-                            
-                            
+                        
+   deployment_to_production_server:
+                      runs-on: ubuntu-latest
+                      steps: 
+                          - name: log
+                            run: echo "Downloading nodejs..."
+                          - name: download-npm
+                            uses: actions/setup-node@v4  
+                          - name: install_dependencies
+                            run: npm ci
+                          - name: start_app
+                          - run : npm start
+
+                          
 
                
        
